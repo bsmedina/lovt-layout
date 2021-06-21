@@ -63,3 +63,38 @@ span {
     text-align: justify;
     padding: 5px 5px;
 }
+
+.style-options {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35vh;
+}
+
+h3 {
+    color: #888;
+    line-height: 27px;
+}
+
+.style {
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    width: 100%;
+}
+.industrial-style {
+    /* background: rgba(196, 196, 196, 0.5); */
+    background-image: url(/img/Rectangle\ 11.svg);
+    background-position: center;
+}
+
+.modern-style {
+    background-image: url(/img/Rectangle\ 12.svg);
+    background-position: center;
+}
+
+.classic-style {
+    background-image: url(/img/Rectangle\ 13.svg);
+    background-position: center;
+}
