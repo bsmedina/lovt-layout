@@ -66,11 +66,15 @@ h1 {
     .logo {
         width: 18%;
     }
-    
+
+    h1 {
+        text-transform: uppercase;
+        line-height: 60px;
+    }
     .header--h2 {
         font-size: 1.2rem;
-        line-height: 15px;
-        padding: 2px 3px;
+        line-height: 17px;
+        padding: 12px 10px;
     }
 
     .header--menu-icon {

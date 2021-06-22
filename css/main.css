@@ -74,15 +74,18 @@ span {
 
 h3 {
     color: #888;
+    font-size: 1rem;
     line-height: 27px;
 }
 
 .style {
     color: #FFF;
+    font-size: .8rem;
     text-align: center;
     padding: 20px 0 20px 0;
     width: 100%;
 }
+
 .industrial-style {
     /* background: rgba(196, 196, 196, 0.5); */
     background-image: url(/img/Rectangle\ 11.svg);
@@ -97,4 +100,124 @@ h3 {
 .classic-style {
     background-image: url(/img/Rectangle\ 13.svg);
     background-position: center;
+}
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+    main {
+        padding: 20px 30px;
+    }
+
+    span {
+        font-size: 1.5rem;
+    }
+
+    .card-price--new {
+        font-size: 1.2rem;
+    }
+
+    .card--body {
+        font-size: 1rem;
+        line-height: 15px;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        line-height: 27px;
+    }
+
+    .style-options {
+        height: 45vh;
+        width: 100%;
+    }
+
+    .style {
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 1.5rem;
+        padding: 40px 0 40px 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    main {
+        padding: 30px 35px;
+    }
+
+    span {
+        font-size: 2rem;
+    }
+
+    .card-price--new {
+        font-size: 1.4rem;
+    }
+
+    .card--body {
+        font-size: 1.5rem;
+        line-height: 20px;
+    }
+
+    .section--cards {
+        padding: 35px 0;
+    }
+
+    h3 {
+        font-size: 2rem;
+        line-height: 30px;
+    }
+    
+    .style-options {
+        height: 70vh;
+        width: 100%;
+    }
+
+    .style {
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 2rem;
+        padding: 40px 0 40px 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    main {
+        padding: 30px 55px;
+    }
+
+    .section--cards {
+        padding: 35px 0;
+    }
+    
+    span {
+        font-size: 2.2rem;
+    }
+
+    .card-price--new {
+        font-size: 1.6rem;
+    }
+
+    .card--body {
+        font-size: 1.9rem;
+        line-height: 25px;
+    }
+    
+    h3 {
+        font-size: 2.3rem;
+        line-height: 35px;
+    }
+
+    .style-options {
+        height: 75vh;
+        width: 100%;
+    }
+
+    .style {
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 2rem;
+        padding: 80px 0 40px 0;
+        width: 100%;
+    }
+
 }
